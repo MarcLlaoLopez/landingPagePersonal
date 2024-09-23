@@ -1,13 +1,98 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="data:image/png;base64,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" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet">
-    <title>Pàgina Web Pirateria Marc Llaó</title>
-  </head>
-  <body>
-    <h1 class="text-5xl font-bold underline">AIXÒ FUNCIONA</h1>
-  </body>
+    <title>Pàgina Pirata Marc</title>
+</head>
+<body>
+<div class="bg-white">
+    <header class="absolute inset-x-0 top-0 z-50">
+        <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="#" class="-m-1.5 p-1.5">
+                    <span class="sr-only">Your Company</span>
+                    <img class="h-8 w-auto" src="data:image/png;base64,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" alt="">
+                </a>
+            </div>
+            <div class="flex lg:hidden">
+                <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12">
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Pàgina principal</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Videojocs</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Emuladors</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Donatius</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Inicia Sessió<span aria-hidden="true">&rarr;</span></a>
+            </div>
+        </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <div class="lg:hidden" role="dialog" aria-modal="true">
+            <!-- Background backdrop, show/hide based on slide-over state. -->
+            <div class="fixed inset-0 z-50"></div>
+            <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <div class="flex items-center justify-between">
+                    <a href="#" class="-m-1.5 p-1.5">
+                        <span class="sr-only">Your Company</span>
+                        <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+                    </a>
+                    <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                        <span class="sr-only">Close menu</span>
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="mt-6 flow-root">
+                    <div class="-my-6 divide-y divide-gray-500/10">
+                        <div class="space-y-2 py-6">
+                            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
+                            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
+                            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
+                            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+                        </div>
+                        <div class="py-6">
+                            <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="relative isolate px-6 pt-14 lg:px-8">
+        <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+            <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div>
+        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+            <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+                <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                    Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+                </div>
+            </div>
+            <div class="text-center">
+                <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Data to enrich your online business</h1>
+                <p class="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+                <div class="mt-10 flex items-center justify-center gap-x-6">
+                    <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+                    <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+            <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div>
+    </div>
+</div>
+
+</body>
 </html>
